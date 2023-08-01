@@ -1,5 +1,7 @@
 import java.util.*;
 
+import Iterator_Pattern.Iterator;
+
 class Lists_GEN {
     public static void main(String[]args)
     {
@@ -9,12 +11,12 @@ class Lists_GEN {
         arr.add("moon");
         arr.add("earth");
         arr.add("star");
-        Iterator it=arr.iterator();
-        // System.out.println(arr.get(0));
-        // System.out.println(arr.get(1));
-        while (it.hasNext()) {
-            System.out.println(it.next()); 
+        // Iterator it=arr.iterator();
+        // // System.out.println(arr.get(0));
+        // // System.out.println(arr.get(1));
+        // while (it.hasNext()) {
+        //     System.out.println(it.next()); 
             
-        }
+        // }
     }
 }

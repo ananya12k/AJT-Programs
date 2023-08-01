@@ -1,5 +1,7 @@
 import java.util.*;
 
+import Iterator_Pattern.Iterator;
+
 public class Student_List {
 
     public static void main(String[] args) {
@@ -12,14 +14,14 @@ public class Student_List {
         arr.add(m);
         arr.add(n);
         arr.add(k);
-        Iterator it = arr.iterator();
-        // System.out.println(arr.get(0).age);
-        // System.out.println(arr.get(1).age);
+        // Iterator it = arr.iterator();
+        // // System.out.println(arr.get(0).age);
+        // // System.out.println(arr.get(1).age);
 
-        while (it.hasNext()) {
-            System.out.println(it.next()+" ");
+        // while (it.hasNext()) {
+        //     System.out.println(it.next()+" ");
 
-        }
+        // }
     }
 }
 

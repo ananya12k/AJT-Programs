@@ -1,5 +1,7 @@
 import java.util.*;
 
+import Iterator_Pattern.Iterator;
+
 public class HashMap_Ex {
     public static void main(String[] args) {
 
@@ -13,9 +15,9 @@ public class HashMap_Ex {
         String val = n.get(3);
         System.out.println(3 + " " + val);
         n.remove(3);
-        Iterator<Integer> it = n.keySet().iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
+        // Iterator<Integer> it = n.keySet().iterator();
+        // while (it.hasNext()) {
+        //     System.out.println(it.next());
+        // }
     }
 }

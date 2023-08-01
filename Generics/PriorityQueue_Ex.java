@@ -1,4 +1,6 @@
 import java.util.*;
+
+import Iterator_Pattern.Iterator;
 public class PriorityQueue_Ex {
     public static void main(String[] args) {
         Queue<Integer> q = new PriorityQueue<>();
@@ -11,10 +13,10 @@ public class PriorityQueue_Ex {
         System.out.println(a);
         System.out.println(q.poll());
         System.out.println(q);
-        Iterator iterator = q.iterator();
+        // Iterator iterator = q.iterator();
  
-        while (iterator.hasNext()) {
-            System.out.print(iterator.next() + " ");
-        }
+        // while (iterator.hasNext()) {
+        //     System.out.print(iterator.next() + " ");
+        // }
     }
 }
