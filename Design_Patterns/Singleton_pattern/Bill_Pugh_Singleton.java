@@ -1,14 +1,12 @@
 package Singleton_pattern;
 
-/**
- * Singleton
- */
-public class Singleton {
-
+public class Bill_Pugh_Singleton {
+    
     public static void main(String[] args) {
-        Logger mLogger = Logger.getLogger();
-        Logger logger = Logger.getLogger();
+        NLogger mLogger = NLogger.getInstance();
+        NLogger logger = NLogger.getInstance();
         mLogger.log("mLogger " + mLogger);
         logger.log("mLogger " + logger);
     }
+    
 }
