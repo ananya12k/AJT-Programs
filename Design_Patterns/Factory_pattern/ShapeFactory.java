@@ -1,7 +1,7 @@
 package Factory_pattern;
 
 public class ShapeFactory {
-    public Shape createShape(String name) {
+    public static Shape createShape(String name) {
         if (name == null) {
             return null;
         }
