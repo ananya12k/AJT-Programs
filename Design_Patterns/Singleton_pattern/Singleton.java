@@ -1,0 +1,1 @@
+package Singleton_pattern;
