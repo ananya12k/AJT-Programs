@@ -24,7 +24,7 @@ public class StudentBuilder {
         return this;
     }   
     public Student build() {
-        return new Student(firstName, lastName, rollNo);
+        return new Student(id,firstName, lastName, rollNo);
     }
     
 }

@@ -12,7 +12,8 @@ public class Student {
     public Student(int id) {
         this.id = id;
     }
-    public Student(String firstName, String lastName, int rollNo) {
+    public Student( int id,String firstName, String lastName, int rollNo) {
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.rollNo = rollNo;
